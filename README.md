@@ -1,3 +1,5 @@
+# About the game
+
 This game was built using gamelib-x64, made by Otto Visser and Tim Hegeman for the Computer Organization course at Delft University of Technology.
 
 In order to run it, you need to ensure you are using a Linux distribution on a x86-64 architecture (i.e., 64-bit Linux on any modern Intel/AMD processor) with a recent version of GNU binutils to compile. In addition, you will need Qemu or Bochs (both emulators for a.o. the x86-64 platforrm) to run the game. Then, with a terminal open in the game's folder, you must run "make" and them "make qemu"
@@ -6,9 +8,7 @@ Enjoy playing!
 
 (Further down is the original README for the gamelib-x64)
 
-===========
-gamelib-x64
-===========
+# gamelib-x64
 
 Bootable game library for the Computer Organization course at Delft University of Technology. Designed to help students write a bootable game using x64 assembly. Inspired by the 32-bit [bootlib](https://github.com/m-ou-se/bootlib) project used for previous iterations of the Computer Organization course.
 
